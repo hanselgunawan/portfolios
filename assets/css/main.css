@@ -2661,6 +2661,10 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
+		ul.actions li .button:hover {
+			text-decoration: none;
+		}
+
 		ul.actions.special {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
@@ -2853,6 +2857,24 @@ input, select, textarea {
 
 	section.special, article.special {
 		text-align: center;
+	}
+
+	.p-link {
+		color: white;
+	}
+
+	.p-link:hover {
+		color: #2c2c2c;
+		text-decoration: none;
+	}
+
+	.p-tech b {
+		color: #2c2c2c;
+	}
+
+	.p-tech {
+		margin-top: -10px;
+		font-size: 11pt;
 	}
 
 	header p {
