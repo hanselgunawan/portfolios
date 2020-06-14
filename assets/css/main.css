@@ -116,7 +116,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Didact Gothic', sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -3885,12 +3885,13 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("https://imgur.com/wrQXuhd.jpg");
+		/* background-image: url("https://imgur.com/wrQXuhd.jpg"); */
 		background-position: right;
 		background-size: cover;
 		background-position-y: 49%;
 		background-repeat: no-repeat;
 		transform: scale(1,1);
+		background-color: #d8d7d7;
 	}
 		#intro h1 {
 			color: #2c2c2c;
@@ -3939,9 +3940,36 @@ input, select, textarea {
 		{
 			text-shadow: 1px 1px 0px grey;
 		}
+
+		.hello-text, .desc-text
+		{
+			text-align: center;
+			letter-spacing: 1px;
+			font-size: 1.5em !important;
+			font-family: 'Didact Gothic', sans-serif;
+		}
 	}
 
 	.skills-text
 	{
 		color: #2c2c2c;
+	}
+
+	.hello-text, .desc-text
+	{
+		text-align: center;
+		letter-spacing: 1px;
+		font-size: 3.5em !important;
+		font-family: 'Didact Gothic', sans-serif;
+		margin-top: 80px !important;
+	}
+
+	.hello-text span
+	{
+		font-weight: bold;
+	}
+
+	.desc-text
+	{
+		margin-top: -120px !important;
 	}
